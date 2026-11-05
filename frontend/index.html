@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sessão — Clínica Reabilita</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-100 text-slate-800 min-h-screen">
+  <header class="bg-teal-700 text-white px-4 py-3">
+    <h1 class="text-xl font-bold">Sessão <span class="font-normal text-teal-200 text-sm">Clínica Reabilita</span></h1>
+    <nav id="nav" class="flex flex-wrap gap-1 mt-2 text-sm"></nav>
+  </header>
+  <main id="tela" class="p-4 max-w-6xl mx-auto"></main>
+  <div id="modal" class="hidden fixed inset-0 bg-black/50 items-center justify-center z-50">
+    <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+      <h2 id="m-titulo" class="font-bold text-lg mb-2"></h2>
+      <p id="m-msg" class="mb-4"></p>
+      <button onclick="fechar()" class="btn">Fechar</button>
+    </div>
+  </div>
+  <script src="demo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* Complemento ao Tailwind (CDN): componentes reutilizados nas 7 telas */
+.h2{font-size:1.25rem;font-weight:700;margin-bottom:.75rem}
+.card{background:#fff;border-radius:.5rem;padding:1rem;margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.inp{border:1px solid #cbd5e1;border-radius:.375rem;padding:.4rem .6rem;width:100%;background:#fff}
+.btn{background:#0f766e;color:#fff;border-radius:.375rem;padding:.4rem .9rem;font-weight:600}
+.btn:hover{background:#115e59}
+.btn.red{background:#b91c1c}.btn.gray{background:#475569}
+.tbl{width:100%;background:#fff;border-collapse:collapse;font-size:.9rem}
+.tbl th,.tbl td{border-bottom:1px solid #e2e8f0;padding:.45rem .6rem;text-align:left;vertical-align:top}
+.tbl th{background:#f1f5f9}
+.navbtn{padding:.35rem .7rem;border-radius:.375rem;background:#0f766e;color:#fff}
+.navbtn.ativo{background:#fff;color:#0f766e;font-weight:700}
+.chip{background:#ccfbf1;border-radius:.25rem;padding:.15rem .4rem;margin-bottom:.2rem;font-size:.8rem}
+.add{color:#0f766e;font-weight:700}
+.ok{color:#15803d;font-weight:600}.bad{color:#b91c1c;font-weight:600}
+.bar{height:.9rem;background:#0f766e;border-radius:.25rem}
