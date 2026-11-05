@@ -9,3 +9,10 @@ Agenda, pacotes de sessões e faturamento de convênios.
 
 Rodar completo: `psql sessao -f sql/01_ddl_schema.sql -f sql/02_seed_data.sql`, depois em `backend/`:
 `pip install fastapi uvicorn psycopg2-binary` e `DATABASE_URL=postgresql://user:senha@localhost/sessao uvicorn app:app --reload`.
+
+
+Abra as 7 telas
+
+Acesse este endereço, com o ?demo=1 no final:
+
+https://lucasoficial0426-tech.github.io/Projeto-Fisioterapia/frontend/index.html?demo=1
